@@ -50,7 +50,7 @@ app.post('/api/users/register', async (req, res) => {
     res.status(500).json({ error: e.message });
   }
 });
-
+//flujo de verificación de contraseña
 app.post('/api/users/login', async (req, res) => {
   try {
     const { identifier, password } = req.body;
