@@ -24,7 +24,7 @@ const messageCounters = new Map();
 app.get('/api/health', (req, res) => {
   res.json({ ok: true });
 });
-
+// Registrar un nuevo usuario
 app.post('/api/users/register', async (req, res) => {
   try {
     const { nombre, username, email, telefono, fecha_nacimiento, password } = req.body;
