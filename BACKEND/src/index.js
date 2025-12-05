@@ -113,7 +113,7 @@ app.post('/api/admin/normalize-levels', async (req, res) => {
     res.status(500).json({ error: e.message });
   }
 });
-
+//Actualiza campos permitidos del usuario
 app.patch('/api/users/:id', async (req, res) => {
   try {
     const allowed = ['monedas', 'puntos', 'nivel_actual', 'puntos_siguiente_nivel', 'horas_streamer', 'estado'];
