@@ -8,7 +8,7 @@
   --border-color: #2a2a2a;
   --card-bg: #0f0f0f;
   --button-bg: #2c2c2c;
-}
+} 
 :root[data-theme='light'] {
   --bg-main: #f0f2f5;
   --bg-sidebar: #ffffff;
